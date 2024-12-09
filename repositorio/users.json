@@ -1,0 +1,29 @@
+{
+    "operaciones": [
+      {
+        "operacion": "agregar",
+        "datos": {
+          "nombre_usuario": "jdoe",
+          "contrasena": "password123",
+          "usuario": "jdoe",
+          "nombre": "John Doe"
+        }
+      },
+      {
+        "operacion": "eliminar",
+        "datos": {
+          "nombre_usuario": "jdoe"
+        }
+      },
+      {
+        "operacion": "actualizar",
+        "datos": {
+          "nombre_usuario": "jdoe",
+          "contrasena": "newpassword456",
+          "usuario": "jdoe_updated",
+          "nombre": "John Doe Jr."
+        }
+      }
+    ]
+  }
+  

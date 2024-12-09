@@ -1,0 +1,64 @@
+{
+  "usuarios": [
+    {
+      "nombre_usuario": "jdoe",
+      "contrasena": "password123",
+      "nombre": "John Doe",
+      "correo": "jdoe@example.com"
+    },
+    {
+      "nombre_usuario": "asmith",
+      "contrasena": "securepass456",
+      "nombre": "Alice Smith",
+      "correo": "asmith@example.com"
+    }
+  ],
+  "juegos": [
+    {
+      "id_juego": 1,
+      "nombre": "Adventure Quest",
+      "categoria": "Aventura",
+      "desarrollador": "GameStudio"
+    },
+    {
+      "id_juego": 2,
+      "nombre": "Racing Thunder",
+      "categoria": "Carreras",
+      "desarrollador": "SpeedGames"
+    }
+  ],
+  "publicaciones": [
+    {
+      "id_publicacion": 1,
+      "titulo": "Guía para Adventure Quest",
+      "contenido": "Esta es una guía completa para Adventure Quest...",
+      "fecha": "2024-06-15",
+      "autor": "jdoe",
+      "id_juego": 1
+    },
+    {
+      "id_publicacion": 2,
+      "titulo": "Los mejores autos en Racing Thunder",
+      "contenido": "Aquí tienes una lista de los mejores autos en Racing Thunder...",
+      "fecha": "2024-06-16",
+      "autor": "asmith",
+      "id_juego": 2
+    }
+  ],
+  "comentarios": [
+    {
+      "id_comentario": 1,
+      "id_publicacion": 1,
+      "nombre_usuario": "asmith",
+      "contenido": "¡Excelente guía! Me ha sido de mucha ayuda.",
+      "fecha": "2024-06-16"
+    },
+    {
+      "id_comentario": 2,
+      "id_publicacion": 2,
+      "nombre_usuario": "jdoe",
+      "contenido": "Muy buen artículo, ahora sé qué autos elegir.",
+      "fecha": "2024-06-17"
+    }
+  ]
+}
