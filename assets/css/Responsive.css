@@ -1,0 +1,168 @@
+@media(max-width:991px){
+    .swiper {
+        padding: 0 70px;
+    }
+    .swiper-slide img {
+        width: 380px;
+    }
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ff5a2c;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1b1726;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+        z-index: 2;
+    }
+
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header.txt{
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header.txt h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .butons {
+        justify-content: center;
+    }
+
+    .btn-1:last-of-type {
+        margin-right: 0;
+    }
+
+    .popular{
+        display: none;
+    }
+
+    .product {
+        padding: 30px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input {
+        margin: 0 0 20px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul {
+        margin-top: 20px;
+    }
+
+}
+@media (max-width: 752px) {
+    .juegos-content {
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .img_Fondo_Imagen {
+        background: 
+        linear-gradient(
+                        rgba(0, 0, 0, .7), 
+                        rgba(0, 0, 0, .7)),
+        url('../img/Nbg_2.jpg')
+        no-repeat center center; 
+        background-size: cover; 
+    }
+    .contenedor_img_fondo {
+        align-items: center;
+    }
+    .img_Fondo_nota { 
+        text-align: center;
+    }
+
+    .informacion img {
+        width: 100%;
+    }
+    .new_Noticias {
+        flex-direction: column;
+    }
+    .aside, .noticiaPrincipal {
+        width: 100%;
+    }
+    .otros_Contenidos {
+        text-align: left;
+        padding-top: 15px;
+    }
+    .contenedor-txt {
+        visibility: visible;
+        opacity: 1;
+    }
+    .contenedor-txt h1 {
+        font-size: 30px;
+    }
+    .contenedor-txt p {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 556px) {
+    .juegos-content {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .footer_container {
+        flex-direction: column;
+
+    }
+    .contenedor-txt h1 {
+        font-size: 50px;
+    }
+    .contenedor-txt p {
+        font-size: 25px;
+    }
+    .noticiaPrincipal p , .notaCompleta {
+        font-size: 22px;
+    }
+    .otros_Contenidos li{
+        font-size: 22px;
+    }
+    
+}
+@media (max-width: 440px) {
+    .juegos-content {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .link ul li > a {
+        font-size: 13px;
+    }
+}

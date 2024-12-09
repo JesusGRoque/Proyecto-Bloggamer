@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), 
+                    rgba(0, 0, 0, .5)),
+        url('../img/portada.jpg'); 
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+
+    
+}
+
+/*CODIGO DEL LOGIN */
+.Contenedor_inicioDatos {
+    width: 60%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 4px;
+}
+
+.Contenedor_header_inicioDatos {
+    background: #1b1726;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    border-bottom: 3px solid #ff5a2c;
+    border-radius: 5px;
+}
+.Contenedor_header_inicioDatos h2{
+    margin-right: 40px;
+}
+.Contenedor_Buttons_Datos button {
+    outline: none;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #ff5a2c;
+    color: #ff5a2c; 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    transition: all 200ms ;
+}
+.Contenedor_Buttons_Datos button:hover {
+    color: #1b1726;
+    background: #ff5a2c;
+}
+.contenedor_login-registro {
+    position: relative;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario__register , .formulario__login{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    margin: 10px 10px;
+    transition: all 200ms; 
+}
+.formulario__register ,h2, input, button
+.formulario__login ,h2, input , button {
+    color: #ff5a2c;
+    margin: 10px 0px;
+}
+
+.formulario__register input, 
+.formulario__login input{
+    background: #1b1726;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 2px solid #7a7a7a; 
+}
+
+.formulario__register button,
+.formulario__login button {
+    outline: none;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    width: 30%;
+    cursor: pointer;
+    background: #ff5a2c;
+    border: 0px;
+    color: #1b1726; 
+    border-radius: 4px;
+}
+.formulario__register button:hover, 
+.formulario__login button:hover {
+    color: #ff5a2c;
+    background: #1b1726;
+}
+.formulario__register{
+    display: none;
+}
+.formulario__login {
+    opacity: 1;
+    display: flex;
+}
+::placeholder {
+    color: #9f9f9f;
+}
+
+.advertencias {
+    background:#00ffc3;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.advertencias div {
+    text-align: center;
+    position: absolute;
+    padding: 0px 30px;
+    color: #ff5a2c;
+    font-size: 16px;
+    border-radius: 7px;
+}
+.advertencia_Correcto {
+    color: #ffff; 
+}
+.advertencias,
+.advertencia_Usuario,
+.advertencia_Correo,
+.advertencia_Usuario-Correo,
+.advertencia_Correcto {
+    display: none;
+    opacity: 0;
+}
