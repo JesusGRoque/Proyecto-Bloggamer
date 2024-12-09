@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos</title>
+    <link rel="stylesheet" href="Juegos.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Aquí nos apasionan <span>los videojuegos.</span> <br> ¡Desde lo retro hasta lo nuevo! </h1>
+                <p>
+                    Desde lo retro hasta lo más nuevo del videojuego, desde Nintendo 64 hasta PlayStation 5, 
+                    aquí buscamos mostrar nuestra pasión por los videojuegos.
+                    En este espacio encontrarás desde noticias relevantes del mundo del videojuego, gameplays
+                    reseñas e información de los juegos que van saliendo al mercado y de los que ya se 
+                    conviertieron en parte de la historia de esta industria.
+                </p>
+                <div class="butons">
+                    <a href="Información.html" class="btn-1">información</a>
+                    <a href="./Noticias.html" class="btn-1">Noticias</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- Contador de visitas -->
+     <section class="visit-counter">
+        <p>Esta página ha sido visitada <strong>403</strong> veces.</p>
+    </section>
+        
+    <h1>Juegos</h1>
+    <div id="xbox" class="section">
+        <h2>Xbox</h2>
+        <br>
+        <p class="description"></p>
+        <br>
+        <div class="carousel-container">
+            <button class="prev" onclick="slide('xbox', -1)">&#10094;</button>
+            <div class="carousel"></div>
+            <button class="next" onclick="slide('xbox', 1)">&#10095;</button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    
+    <div id="playstation" class="section">
+        <h2>PlayStation</h2>
+        <br>
+        <p class="description"></p>
+        <br>
+        <div class="carousel-container">
+            <button class="prev" onclick="slide('playstation', -1)">&#10094;</button>
+            <div class="carousel"></div>
+            <button class="next" onclick="slide('playstation', 1)">&#10095;</button>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div id="nintendo" class="section">
+        <h2>Nintendo Switch</h2>
+        <br>
+        <p class="description"></p>
+        <br>
+        <div class="carousel-container">
+            <button class="prev" onclick="slide('nintendo', -1)">&#10094;</button>
+            <div class="carousel"></div>
+            <button class="next" onclick="slide('nintendo', 1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer container">
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>

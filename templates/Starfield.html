@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starfield</title>
+    <link rel="stylesheet" href="Starfield.css">
+    <style>
+        /* Estilos para el modal */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+            }
+            .close {
+                position: absolute;
+                top: 20px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor-starfield">
+        <h1>Starfield</h1>
+        <div class="starfield-info">
+            <h3>Información del juego</h3>
+            <div class="info-starfield">
+            <p>
+                Starfield es un videojuego de rol de ciencia ficción desarrollado por Bethesda Game Studios. Durante la conferencia de Microsoft + Bethesda del E3 2021, se reveló que Starfield se lanzaría para Xbox Series y PC el 6 de septiembre de 2023.
+                <br>
+                <br>
+                Starfield es el primer universo nuevo en más de 25 años de Bethesda Game Studios, los galardonados creadores de The Elder Scrolls V: Skyrim y Fallout 4. En este juego de rol de próxima generación ambientado entre las estrellas, podrás crear el personaje que desees y explorar con una libertad sin precedentes mientras te embarcas en un viaje épico para desentrañar el mayor misterio de la humanidad.
+                <br>
+                <br>
+                Corre el año 2330. La humanidad se ha aventurado más allá de nuestro sistema solar para asentarse en planetas nuevos y vivir como un pueblo espacial. Te unirás a Constelación, el último grupo de exploradores espaciales en busca de raros artefactos por toda la galaxia, y viajarán por la vasta extensión del espacio en el juego más grande y ambicioso de Bethesda Game Studios.
+            </p>
+            </div>
+
+            <h3>Reseñas</h3>
+            <div class="reseñas-calif">
+
+            <div class="resenia-starfield">
+                <center><img src="images/IGN-Logo.png" width="400" height="100"></center>
+                <div class="resenia">
+                <h5>IGN</h5>
+                <div class="calif">
+                    <h6>Bueno</h6>
+                    <p>
+                    "Nunca es una buena señal cuando alguien recomienda un juego con el argumento de que mejora después de más de una docena de horas, pero ese es el tipo de juego que es Starfield, y lo recomiendo. Hay muchas fuerzas trabajando en su contra, y la combinación de viajes espaciales inconexos, mapas inexistentes, una gestión de inventario complicada y un lento despliegue de habilidades esenciales casi lo acaban. Fue el placer de pilotar una nave espacial personalizada dentro y fuera de todo tipo de situaciones moralmente ambiguas en un rico universo de ciencia ficción que finalmente lo sacaron de la caída en picada. Me alegro de haber podido pasar las primeras horas, porque su historia de misterio interestelar vale la pena y, una vez que la pelota empezó a rodar, el combate a pie y en el espacio gradualmente se volvió lo suficientemente bueno como para que su impulso me llevara al Nuevo Juego+ después de haber terminado. la historia principal después de aproximadamente 60 horas. Al igual que Skryim y Fallout 4 antes, todavía hay una inmensa cantidad de misiones de juego de rol de calidad y NPC interesantes esperando a ser encontrados, y la atracción para buscarlos es fuerte."
+                    <br>
+                    <br>
+                    "7 / 10" </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-starfield">
+                <center><img src="images/Metacritic_logo.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>Metacritic</h5>
+                <div class="calif">
+                    <h6>Generalmente favorable</h6>
+                    <p>"Basado en 90 reviews de críticas." <br><br>
+                    "Me tomó mucho tiempo enamorarme de Starfield, e incluso después de hacerlo, ciertos aspectos no me funcionaron. Pero las cosas que no disfruté se ven ampliamente compensadas por mi entusiasmo por este nuevo y original universo de ciencia ficción, la amplitud de sus aventuras y el atractivo de sus numerosas historias entrelazadas. Entra con la expectativa de que te llevará algún tiempo encontrar tu equilibrio en un espacio de juego tan vasto, y hay un universo que vale la pena descubrir aquí."
+                    <br><br> 
+                    "83 / 100"</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-starfield">
+                <center><img src="images/levelup-com-logo-vector-removebg-preview.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>LevelUp</h5>
+                <div class="calif">
+                    <h6>"8.5/10"</h6>
+                    <p>
+                    "Starfield es épico, es una odisea que te atrapa en un hechizo con sorpresas inesperadas que te mantienen siempre alerta en la búsqueda de una nueva misión. Sin embargo, sus problemas técnicos y de rendimiento empañan la experiencia, además que la monotonía generada proceduralmente en los planetas reduce la sensación de exploración.
+                    <br>
+                    <br>
+                    A pesar de estos inconvenientes, Starfield es una experiencia que te sumerge en su mundo, te recompensa por tu curiosidad y te hace sentir parte de un universo en constante evolución. Aunque el juego tiene sus defectos, su capacidad para inspirar asombro y aventura lo convierte en una experiencia inolvidable. Starfield se levanta como un testimonio de la persistencia humana y la capacidad de soñar y alcanzar lo inalcanzable en las estrellas."
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+    
+        <br>
+        
+        <h3>Imágenes y capturas del juego</h3>
+        
+        <div class="imagenes-y-capturas">
+            <img id="myImage" src="starfield/starfield-1.jpg" onclick="openModal(this.src)">
+         
+            <img id="myImage" src="starfield/starfield-2.png" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="starfield/starfield-3.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="starfield/starfield-4.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="starfield/starfield-5.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="starfield/starfield-6.png" onclick="openModal(this.src)">
+        </div>
+
+        <!-- El modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(src) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('modalImage').src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
+        <h3>Gameplay del juego</h3>
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PtIrExSgxr4?si=oEDT_2phr5-7JAwu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    </main>
+
+
+    <footer class="footer container">
+
+        <div class="link">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>

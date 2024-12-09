@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Smash Bros. Ultimate</title>
+    <link rel="stylesheet" href="SuperSmashBrosUltimate.css">
+    <style>
+        /* Estilos para el modal */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+            }
+            .close {
+                position: absolute;
+                top: 20px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="super-smash-bros-ultimate-container">
+        <h1>Super Smash Bros. Ultimate</h1>
+        <div class="super-smash-bros-ultimate-info">
+            <h3>Información del juego</h3>
+            <div class="info-super-smash-bros-ultimate">
+            <p>
+                Super Smash Bros. Ultimate (大乱闘スマッシュブラザーズ SPECIAL{{{2}}}, Dairantō Sumasshu Burazāzu Special?) es un videojuego de lucha desarrollado por Sora Ltd. y Bandai Namco Entertainment y distribuido por Nintendo para la consola Nintendo Switch. Fue lanzado a nivel mundial el 7 de diciembre de 2018 y se trata del quinto título de la serie Super Smash Bros.
+                <br>
+                <br>
+                Igual que sus predecesores, se trata de un juego de lucha donde hay que debilitar a los rivales para expulsarles de los márgenes del escenario. El plantel está formado por personajes de otros videojuegos, tanto de Nintendo como de otras desarrolladoras independientes, e incluye a todos los combatientes de entregas anteriores. Además, puede ampliarse con la compra de contenido descargable. Los trofeos coleccionables han sido reemplazados por los «espíritus», un nuevo concepto inspirado también en personajes de videojuegos, que permiten mejorar las características del luchador antes de un combate.
+                El título admite hasta ocho jugadores en modo local, se puede jugar en línea a través de Nintendo Switch Online, y es compatible con las figuras Amiibo y con Nintendo Labo.
+                <br>
+                <br>
+                El desarrollo de Ultimate comenzó en diciembre de 2015, bajo la dirección de Masahiro Sakurai y con buena parte del equipo que había hecho Super Smash Bros. para Nintendo 3DS y Wii U (2014), algo que redujo significativamente los tiempos de producción.
+                Sakurai logró su objetivo de incluir a todos los personajes que habían aparecido alguna vez en la entrega, un proceso complejo por el desarrollo técnico, por el equilibrio del plantel y por el coste de licencias.
+                Además de Nintendo, se llegaron a acuerdos con Bandai Namco, Konami, Sega, Capcom, Square Enix, PlatinumGames, Atlus, Microsoft, SNK, Disney y Mojang Studios.
+                Hay un total de 86 luchadores seleccionables —74 del plantel base y 12 de contenido descargable— y 450 juegos representados entre combatientes, espíritus y trajes para el luchador Mii.
+                <br>
+                <br>
+                Ultimate es el tercer título más vendido en la historia de Nintendo Switch, con 24,77 millones de copias en formato físico y digital.
+                Tuvo buenas reseñas de la prensa especializada, a pesar de algunas críticas relativas al multijugador en línea, y en términos generales ha sido considerada la mejor entrega de la saga Super Smash Bros. hasta la fecha. En 2019 fue premiado con el Game Awards al «mejor juego de lucha».
+            </p>
+            </div>
+
+            <h3>Reseñas</h3>
+            <div class="reseñas-calif">
+
+            <div class="resenia-smash-bros">
+                <center><img src="images/IGN-Logo.png" width="400" height="100"></center>
+                <div class="resenia">
+                <h5>IGN</h5>
+                <div class="calif">
+                    <h6>Increíble</h6>
+                    <p>
+                    "Super Smash Bros. Ultimate hace honor a su nombre y ofrece el juego más completo de la serie hasta la fecha. Tiene una cantidad absurda de cosas para jugar, luchar y desbloquear, aunque eso a veces puede ir en detrimento de él. Si bien el modo aventura World of Light no es el único motivo para conseguir Smash Bros., sigue siendo una campaña consistentemente divertida y sorprendentemente grande, y un digno complemento al increíble núcleo multijugador de Ultimate. La serie Smash Bros. siempre ha mantenido un maravilloso equilibrio entre diversión caótica y acción tensa de juego de lucha, y Super Smash Bros. Ultimate refina y mejora ambos lados sin abandonar ninguno de los dos."
+                    <br>
+                    <br>
+                    "9.7 / 10" </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-smash-bros">
+                <center><img src="images/Metacritic_logo.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>Metacritic</h5>
+                <div class="calif">
+                    <h6>Aclamado universalmente</h6>
+                    <p>"Basado en 110 reviews de críticas." <br><br>
+                    "Super Smash Bros. Ultimate logra cumplir con todas las expectativas que se le pusieron. La incorporación del maravilloso modo aventura, la inmensa cantidad de personajes jugables, así como espíritus y, para colmo, magníficas imágenes, audio y jugabilidad. Super Smash Bros. Ultimate no es solo uno de los mejores juegos que se pueden encontrar en Nintendo Switch, sino que también es uno de los mejores juegos jamás creados."
+                    <br><br> 
+                    "93 / 100"</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-smash-bros">
+                <center><img src="images/levelup-com-logo-vector-removebg-preview.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>LevelUp</h5>
+                <div class="calif">
+                    <h6>"9.7/10"</h6>
+                    <p>
+                    "Super Smash Bros. Ultimate se siente como la experiencia definitiva de la saga gracias a su robusta oferta single player; su frenético multijugador y su sólido sistema de combate. Además, es un juego ideal para cualquier tipo de jugador, desde el más casual hasta para el más clavado en su escena competitiva. Es un lanzamiento imprescindible para todo dueño de Nintendo Switch y tiene todo como para ser considerado uno de los mejores lanzamientos de Nintendo en la última década."
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+    
+        <br>
+        
+        <h3>Imágenes y capturas del juego</h3>
+        
+        <div class="imagenes-y-capturas">
+            <img id="myImage" src="super-smash-bros-ultimate/super-smash-bros-ultimate-1.jpg" onclick="openModal(this.src)">
+         
+            <img id="myImage" src="super-smash-bros-ultimate/super-smash-bros-ultimate-2.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="super-smash-bros-ultimate/super-smash-bros-ultimate-3.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="super-smash-bros-ultimate/super-smash-bros-ultimate-4.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="super-smash-bros-ultimate/super-smash-bros-ultimate-5.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="super-smash-bros-ultimate/super-smash-bros-ultimate-6.jpg" onclick="openModal(this.src)">
+        </div>
+
+        <!-- El modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(src) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('modalImage').src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
+        <h3>Gameplay del juego</h3>
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QrZn4trMK_U?si=e7OZFM1xTAWjWi6n&amp;start=361" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    </main>
+
+
+    <footer class="footer container">
+
+        <div class="link">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>

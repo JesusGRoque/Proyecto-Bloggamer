@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Infinite</title>
+    <link rel="stylesheet" href="Halo-Infinite.css">
+    <style>
+        /* Estilos para el modal */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+            }
+            .close {
+                position: absolute;
+                top: 20px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor-halo-infinite">
+        <h1>Halo Infinite</h1>
+        <div class="halo-infinite-info">
+            <h3>Información del juego</h3>
+            <div class="info-halo-infinite">
+            <p>
+                Halo Infinite es un videojuego de disparos en primera persona de la franquicia de videojuegos de ciencia ficción creada por Bungie Studios y actualmente desarrollada por 343 Industries. Es exclusivo para las plataformas Xbox One, Microsoft Windows y Xbox Series X|S. El juego es desarrollado por 343 Industries y distribuido por Xbox Game Studios. El juego es secuela de la historia de Halo 5: Guardians y Halo Wars 2 pero catalogado por 343 Industries como un reinicio espiritual para la saga Halo, o el inicio de una nueva era de Halo, se sabe que será un juego con inspiración de mundo abierto recordando a Halo CE que tenía un factor de exploración pero que en secuelas se fue volviendo más lineal.
+                <br>
+                <br>
+                En esta nueva entrega, el jefe Maestro, el gran héroe de la humanidad y personaje principal de la saga, se enfrentará a un grupo sanguinario y temible conocido como los Desterrados (The Banished en inglés), formado por antiguos integrantes del Covenant. Primero introducidos en el videojuego Halo Wars 2 y en las novelas del universo de Halo, ahora debutan como la amenaza principal en Halo Infinite.
+                <br>
+                <br>
+                Halo Infinite tiene muchas interrogantes que serán respondidas en la misma entrega, como qué sucedió con Cortana, el futuro de la UNSC y qué persiguen los Desterrados en Zeta Halo. La entrega estrella de Xbox del 2021 Halo Infinite tendrá por primera vez un multijugador free-to-play en todas las plataformas en el que el juego sea lanzado, tendrá el conocido sistema de pase de batalla con temporadas, siendo la primera anunciada hasta la fecha "héroes de Reach", que nos dará armaduras basadas en los personajes principales del juego Halo Reach entre otras recompensas.
+            </p>
+            </div>
+
+            <h3>Reseñas</h3>
+            <div class="reseñas-calif">
+
+            <div class="resenia-halo-infinite">
+                <center><img src="images/IGN-Logo.png" width="400" height="100"></center>
+                <div class="resenia">
+                <h5>IGN</h5>
+                <div class="calif">
+                    <h6>Increíble</h6>
+                    <p>
+                    "La campaña para un jugador de Halo Infinite es exactamente lo que necesitaba esta serie. Saca lo mejor del estilo de combate único y satisfactorio de Master Chief mientras aprovecha viejas ideas para crear nuevos momentos memorables. Su historia se queda corta tanto para los jugadores nuevos como para los veteranos, pero valió la espera de seis años."
+                    <br>
+                    <br>
+                    "9 / 10" </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-halo-infinite">
+                <center><img src="images/Metacritic_logo.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>Metacritic</h5>
+                <div class="calif">
+                    <h6>Generalmente favorable</h6>
+                    <p>"Basado en 110 reviews de críticas." <br><br>
+                    "Con una campaña aventurera, completa con una caja de arena que seguirá ahí cuando tus amigos puedan unirse a la lucha, y una suite multijugador que se siente como un resurgimiento perfecto del Halo de antaño, Halo Infinite se siente como el éxito de ciencia completo. Fi shooter que estábamos esperando de 343 Industries. No ha sucedido de la noche a la mañana para el equipo, pero el manto que se les ha pasado, por fin, se siente ganado."
+                    <br><br> 
+                    "87 / 100"</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-halo-infinite">
+                <center><img src="images/levelup-com-logo-vector-removebg-preview.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>LevelUp</h5>
+                <div class="calif">
+                    <h6>"8.5/10"</h6>
+                    <p>
+                    "Nos sorprende que 343 Industries haya cumplido la misión de retener lo característico de la fórmula original para ofrecer la experiencia que anhelan los fans, evitando que se sienta repulsión por mecánicas polémicas o cambios radicales. Lo nuevo que se añade se siente orgánico con lo original. Pero, sobre todo, se trata de una entrega que se juega bien, tiene una buena duración, dificultad y prepara a la serie para un futuro prometedor."
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+    
+        <br>
+        
+        <h3>Imágenes y capturas del juego</h3>
+        
+        <div class="imagenes-y-capturas">
+            <img id="myImage" src="halo-infinite/halo-infinite-1.jpg" onclick="openModal(this.src)">
+         
+            <img id="myImage" src="halo-infinite/halo-infinite-2.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="halo-infinite/halo-infinite-3.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="halo-infinite/halo-infinite-4.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="halo-infinite/halo-infinite-5.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="halo-infinite/halo-infinite-6.jpeg" onclick="openModal(this.src)">
+        </div>
+
+        <!-- El modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(src) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('modalImage').src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
+        <h3>Gameplay del juego</h3>
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WKbe_rrE3TY?si=NK34cqujJsqUwVoW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    </main>
+
+    <footer class="footer container">
+
+        <div class="link">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>

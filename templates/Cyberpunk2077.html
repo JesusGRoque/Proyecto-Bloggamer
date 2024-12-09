@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk 2077</title>
+    <link rel="stylesheet" href="Cyberpunk2077.css">
+    <style>
+        /* Estilos para el modal */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+            }
+            .close {
+                position: absolute;
+                top: 20px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cyberpunk-2077-container">
+        <h1>Cyberpunk 2077</h1>
+        <div class="cyberpunk-2077-info">
+            <h3>Información del juego</h3>
+            <div class="info-juego-cyberpunk2077">
+                <p>Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en la megalópolis de Night City, donde te pondrás en la piel de un mercenario o una mercenaria 
+                    ciberpunk y vivirás su lucha a vida o muerte por la supervivencia. Mejorado y con contenido nuevo adicional gratuito. Personaliza tu personaje 
+                    y tu estilo de juego a medida que aceptas trabajos, te labras una reputación y desbloqueas mejoras. Las relaciones que forjes y las decisiones 
+                    que tomes darán forma al mundo que te rodea. Aquí nacen las leyendas. ¿Cuál será la tuya?
+                   <br>
+                   <br>
+                   La historia sigue la lucha de V, un mercenario de Night City que lidia con las consecuencias de un atraco que salió mal y que resulta en un biochip experimental cibernético 
+                   que contiene un engrama de la legendaria estrella de rock y terrorista Johnny Silverhand, que amenaza con sobrescribir lentamente la mente de V. A medida que avanza la historia, 
+                   V y Silverhand deben trabajar juntos para encontrar una manera de separarse y salvar la vida de V.
+                   <br>
+                   <br>
+                   Ambientado en el mundo abierto en la ciudad de Night City, California, V navega por estas ubicaciones a pie y en vehículos, que están sujetos a una vista en tercera o en primera persona. 
+                   Los peatones son vulnerables a las colisiones de vehículos. Dependiendo de la ubicación, se puede alertar a las fuerzas del orden si V comete un delito. Hay estaciones de radio disponibles para escuchar.
+                </p>
+            </div>
+
+            <h3>Reseñas</h3>
+            <div class="reseñas-calif">
+
+            <div class="resenia-cyberpunk2077">
+                <center><img src="images/IGN-Logo.png" width="400" height="100"></center>
+                <div class="resenia">
+                <h5>IGN</h5>
+                <div class="calif">
+                    <h6>Asombroso</h6>
+                    <p>"Cyberpunk 2077 te lleva a un hermoso y denso paisaje urbano y ofrece una asombrosa 
+                        flexibilidad a la hora de elegir cómo abordarlo desde allí." <br><br>
+                        "No dejes que el combate FPS te engañe: Cyberpunk 2077 es un juego de rol de principio a fin. <br><br>
+                        " "9 / 10 en PC, Xbox Series y PS5"<br><br>
+                        "4 / 10 en Xbox One y PlayStation 4."</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-cyberpunk2077">
+                <center><img src="images/Metacritic_logo.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>Metacritic</h5>
+                <div class="calif">
+                    <h6>Generalmente favorable</h6>
+                    <p>"Cyberpunk 2077 es uno de los juegos de rol más inquietantes y alucinantes de la historia, donde cada decisión tiene un profundo impacto en nuestro 
+                        camino. CD Projekt RED nos lanza al centro de una ciudad llena de delicias repugnantes donde cada personaje merece nuestra atención en una experiencia inmersiva 
+                        y, sobre todo, muy gratificante. Desde el tono sarcástico y sombrío que imponen las innumerables escenas del juego, hasta la flexibilidad que 
+                        tenemos en las opciones para afrontar cada situación que se presenta, Night City es verdaderamente memorable. Es una pena que los innumerables
+                        errores estropeen o disminuyan el impacto de algunos momentos contundentes, pero sin lugar a dudas estamos en presencia de uno de los mejores 
+                        juegos de 2020."<br><br> "86 / 100"</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-cyberpunk2077">
+                <center><img src="images/levelup-com-logo-vector-removebg-preview.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>LevelUp</h5>
+                <div class="calif">
+                    <h6>¿Mejoró?</h6>
+                    <p>"Los creadores de The Witcher y The Witcher 2: Assassins of Kings anuncian este proyecto que te trasladará a la ciudad de 
+                        Night City en el futuro año 2077. Allí verás una humanidad bastante degradada que utiliza la tecnología intensivamente, de 
+                        tal manera que nuestra esencia se ha perdido." <br><br>"8 / 10"</p>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+    
+        <br>
+        
+        <h3>Imágenes y capturas del juego</h3>
+        
+        <div class="imagenes-y-capturas">
+         
+            <img id="myImage" src="cyberpunk-2077/cyberpunk2077-2.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="cyberpunk-2077/cyberpunk2077_3.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="cyberpunk-2077/cyberpunk2077_02.png" onclick="openModal(this.src)">
+
+            <img id="myImage" src="cyberpunk-2077/cyberpunk2077_3.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="cyberpunk-2077/Cyberpunk-2077_6.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="cyberpunk-2077/cyberpunk-2077_2.png" onclick="openModal(this.src)">
+        </div>
+
+        <!-- El modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(src) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('modalImage').src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
+<h3>Gameplay del juego</h3>
+<div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WX1hAbGmdwg?si=rQupOKPfo_HdIyC5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+    </main>
+
+
+    <footer class="footer container">
+
+        <div class="link">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>

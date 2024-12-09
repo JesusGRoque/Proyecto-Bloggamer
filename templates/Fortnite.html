@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite</title>
+    <link rel="stylesheet" href="Fortnite.css">
+    <style>
+        /* Estilos para el modal */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+            }
+            .close {
+                position: absolute;
+                top: 20px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="fortnite-container">
+        <h1>Fortnite</h1>
+        <div class="fortnite-info">
+            <h3>Información del juego</h3>
+            <div class="info-juego-fortnite">
+                <p>
+                Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games lanzado como diferentes paquetes de software que presentan seis diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. 
+                <br>
+                Este juego permite hasta a 100 personas participar juntas en una partida. Los jugadores se dejan caer en el mapa del juego y deben competir para ser el último en quedar de pie matando a todos los demás jugadores en el juego.
+                <br>
+                <br>
+                Fortnite es un juego online de disparos (lo que se conoce como un shooter) en tercera persona (es decir; que ves a tu personaje según se mueve). Tiene dos modos de juego: Salvar al mundo y Battle Royale.
+                <br>
+                Salvar al mundo es un mundo abierto que puede jugarse solo u online con amigos y es cooperativo. El juego consiste en pelear contra olas de enemigos, controlados por una inteligencia artificial, llamados Husks. El jugador puede estar en un equipo con otros tres jugadores, 
+                solo con un equipo de bots, o puede incluso desactivar los bots para tener una experiencia completamente en solitario.
+                <br>
+                Battle Royale es el modo que está causando furor entre los adolescentes. Se trata de un modo competitivo donde el jugador es parte de un equipo de cuatro personas (conocidas o desconocidas), que debe tratar de sobrevivir. Los jugadores son liberados en paracaídas sobre una isla donde 
+                hay otros 96 jugadores de distintos niveles y deben completar misiones y eliminar enemigos con el objetivo de ser el último superviviente.  Además, deben evitar tormentas que reducen el espacio de juego y les perjudican. Para ello y para defenderse, pueden construir estructuras de distintos materiales.
+                <br>
+                <br>
+                Desde su lanzamiento en el año 2017, Fortnite consiguió estar en boca de todos en muy poco tiempo, dado que se convirtió en el título de moda, el que todos querían probar porque conocían a alguien que ya se había enganchado y no podía dejarlo. Una de las claves de su popularidad fue la excelente idea de publicarlo 
+                en todas las plataformas más importantes del momento e ir agregando otras con el paso del tiempo. Es que al observar la lista cuesta imaginar que haya quedado algún dispositivo o sistema operativo en el que no sea posible instalar Fortnite: Microsoft Windows, macOS, PlayStation 4 y 5, Xbox One (tanto la S como la X), Xbox Serie X y S, Nintendo Switch, iOS y Android.
+                <br>
+                A finales de 2020 recibió una actualización para aprovechar algunas de las funciones de las consolas Playstation 5 y Xbox Serie X/S, que además de ser más poderosas que sus antecesoras permiten nuevas experiencias. Entre la lista de mejoras se encuentra un aumento en la resolución para alcanzar 4K a 60 cuadros por segundo (FPS), física más avanzada, tiempos de carga reducidos y vibraciones mucho más precisas gracias al mando de Playstation 5.
+                </p>
+            </div>
+
+            <h3>Reseñas</h3>
+            <div class="reseñas-calif">
+
+            <div class="resenia-fortnite">
+                <center><img src="images/IGN-Logo.png" width="400" height="100"></center>
+                <div class="resenia">
+                <h5>IGN</h5>
+                <div class="calif">
+                    <h6>Increíble</h6>
+                    <p>
+                    "Gracias a la libertad de su excelente mecánica de construcción, Fortnite Battle Royale no es sólo un gran juego de batalla real: es uno de los mejores juegos multijugador de la historia reciente."
+                    <br>
+                    <br>
+                    "9.6 / 10" </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-fortnite">
+                <center><img src="images/Metacritic_logo.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>Metacritic</h5>
+                <div class="calif">
+                    <h6>Generalmente favorable</h6>
+                    <p>"Basado en 18 reviews de críticas." <br><br>
+                    "Fortnite incorpora mecánicas de supervivencia, crafteo y misiones por oleadas. Todo está muy bien medido y es adictivo, pero no hay sorpresas ni innovación. Las microtransacciones vienen a romper el equilibrio, 
+                    y tendrás que jugar demasiadas horas para ver a tu personaje mejorar realmente. Es mejor que esperes a la versión gratuita."
+                    <br><br> 
+                    "78 / 100"</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-fortnite">
+                <center><img src="images/levelup-com-logo-vector-removebg-preview.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>LevelUp</h5>
+                <div class="calif">
+                    <h6>"8/10"</h6>
+                    <p>
+                    "Este título sandbox enfocado en la construcción y la sobrevivencia, tiene como clave la cooperación en equipo para la edificación de fortalezas durante el día ya que al caer la noche serás asesinado por toda clase de monstruos. 
+                    Elige ser trotamundos, soldado, ninja o constructor y ponte a trabajar en lo que mejor sabes hacer, tu equipo te lo agradecerá."
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+    
+        <br>
+        
+        <h3>Imágenes y capturas del juego</h3>
+        
+        <div class="imagenes-y-capturas">
+            <img id="myImage" src="fortnite/fortnite-1.jpg" onclick="openModal(this.src)">
+         
+            <img id="myImage" src="fortnite/fortnite-2.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="fortnite/fortnite-3.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="fortnite/fortnite-4.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="fortnite/fortnite-5.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="fortnite/fortnite-6.jpg" onclick="openModal(this.src)">
+        </div>
+
+        <!-- El modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(src) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('modalImage').src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
+        <h3>Gameplay del juego</h3>
+        <div style="text-align: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/15Ql9iWRhmE?si=EqaFM0gxkyYJWC03&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    </main>
+
+    <footer class="footer container">
+
+        <div class="link">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>

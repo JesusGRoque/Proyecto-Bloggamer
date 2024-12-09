@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros. Wonder</title>
+    <link rel="stylesheet" href="Super-Mario-Bros-Wonder.css">
+    <style>
+        /* Estilos para el modal */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 100%;
+            }
+            .close {
+                position: absolute;
+                top: 20px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="supermariowonder-container">
+        <h1>Super Mario Bros. Wonder</h1>
+        <div class="supermariowonder-info">
+            <h3>Información del juego</h3>
+            <div class="info-mariowonder">
+            <p>
+                Super Mario Bros. Wonder es un videojuego de plataformas de 2023 desarrollado y publicado por Nintendo para la Nintendo Switch. Es el primer juego tradicional de Super Mario de desplazamiento lateral desde New Super Mario Bros. U (2012). El jugador controla a Mario, Luigi y sus amigos mientras intentan detener a Bowser, que planea hacerse cargo de una nueva tierra conocida como el Reino de las Flores después de usar la mágica Flor de la Maravilla para fusionarse con el castillo del reino.
+                <br>
+                <br>
+                El desarrollo para Super Mario Bros. Wonder comenzó en 2019, con el director Shiro Mouri inspirándose en el original Super Mario Bros. y el productor Takashi Tezuka buscando reinventar la experiencia 2D Mario e introducir una nueva ubicación.
+                <br>
+                <br>
+                Super Mario Bros. Wonder es un videojuego de plataformas de desplazamiento lateral. Como uno de los ocho personajes del jugador (Mario, Luigi, Princesa Peach, Princesa Daisy, los Toad amarillo y azul, Toadette, 4 Yoshi (el habitual verde, rojo, azul claro y amarillo) y Caco Gazapo), el jugador completa niveles en todo el Reino Flor con la ayuda de sus habitantes con forma de flores llamados Poplins De manera similar a los juegos anteriores de Super Mario, los jugadores guían a su personaje 
+                hasta el final de un nivel mientras evitan enemigos, como goombas y plantas piraña, y se transportan a través de tuberías. Cada etapa contiene múltiples «Semillas Maravilla» coleccionables. Mientras que en el mapa del mundo, es una mezcla de avance recto y avance abierto.
+                <br>
+                <br>
+                Los nuevos potenciadores incluyen una manzana roja que transforma al jugador en un elefante, una flor que le permite al jugador crear burbujas que capturan enemigos, y un champiñón que le da al jugador un sombrero de taladro que les permite excavar en el suelo o el techo para evadir enemigos o sortear obstáculos. 
+                Wonder presenta la Flor Maravilla, que desencadena efectos extraños como tuberías que cobran vida, hordas de enemigos que aparecen y cambios en la apariencia y habilidades de los personajes. Los efectos terminan cuando un jugador captura una Semilla maravilla o abandona el área de efecto.
+                <br>
+                <br>
+                Mario, Luigi, la princesa Peach, la princesa Daisy y un séquito de Toads y unos Yoshis (mientras Caco Gazpazo viene de polizón) son invitados al reino vecino, el Reino Flor, por su gobernante, el príncipe Florian, para ver una demostración de una Flor Maravilla; Unos grandes tesoros del Reino Flor que pueden deformar la realidad. Bowser interrumpe la ceremonia y se apodera de la Flor Maravilla, usando su poder para fusionarse con el castillo del príncipe Florian, convirtiéndose en una fortaleza voladora gigante y aprisionando 
+                a los ciudadanos del Reino Flor. Mario y compañía se ofrecen en ayudar al príncipe Florian a derrotar a Bowser y restaurar el orden en la tierra. El príncipe Florian acompaña al grupo con insignias que mejoran las habilidades del grupo. Mientras Mario, el príncipe Florian y la pandilla trabajan para recolectar las Semillas Maravilla y salvar a los Poplins capturados, se dan cuenta de que al reunir seis Semillas Reina, que se consideran tesoros preciosos en el Reino Flor, les otorgarán acceso al Bowser Castillo, que es protegido por 
+                nubes piraña. Mientras se proponen a encontrar las Semillas, la pandilla supera unas pruebas, atraviesa los acorazados de Kamek y lucha contra Bowser Jr. en los palacios.
+            </p>
+            </div>
+
+            <h3>Reseñas</h3>
+            <div class="reseñas-calif">
+
+            <div class="resenia-smbw">
+                <center><img src="images/IGN-Logo.png" width="400" height="100"></center>
+                <div class="resenia">
+                <h5>IGN</h5>
+                <div class="calif">
+                    <h6>Increíble</h6>
+                    <p>
+                    "Super Mario Bros. Wonder parece y se juega como el verdadero siguiente paso para los juegos de plataformas 2D de Mario. Los maravillosos efectos cambian cada etapa de maneras sorprendentes y encantadoras, el Reino de las Flores ofrece un cambio de ritmo vibrante y refrescante, y Elephant Mario se roba el espectáculo."
+                    <br>
+                    <br>
+                    "9 / 10" </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-smbw">
+                <center><img src="images/Metacritic_logo.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>Metacritic</h5>
+                <div class="calif">
+                    <h6>Aclamado universalmente</h6>
+                    <p>"Basado en 135 reviews de críticas." <br><br>
+                    "Super Mario Bros. Wonder es una encantadora sorpresa en lo que ha sido un año increíble para la icónica mascota de Nintendo. El juego ofrece la cantidad adecuada de desafíos sin dejar de ser accesible para una amplia muestra representativa de jugadores. Se puede disfrutar 
+                    como jugador individual y también como algo que se puede disfrutar en un ambiente de fiesta. En esencia, Super Mario Bros. Wonder es un escape divertido y fantástico de la realidad que dejará a los jugadores sonriendo durante muchos años."
+                    <br><br> 
+                    "92 / 100"</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="resenia-smbw">
+                <center><img src="images/levelup-com-logo-vector-removebg-preview.png" width="500" height="100"></center>
+                <div class="resenia">
+                <h5>LevelUp</h5>
+                <div class="calif">
+                    <h6>"9/10"</h6>
+                    <p>
+                    "Al final, queda poco más que decir: Super Mario Bros. Wonder es un juego fantástico. Si hay una razón por la que Mario y Nintendo son sinónimos de videojuegos es porque la serie está llena de títulos repletos de imaginación que son capaces de pintar una sonrisa hasta en el rostro del más amargado.
+                    <br>
+                    Incluso los mayores fans de la serie New Super Mario Bros. pueden aceptar que está lejos de tener la magia de las entregas de NES o Super Nintendo. A eso se suma que Nintendo entregó las riendas a los fans con Super Mario Maker y su secuela, herramientas sumamente ambiciosas, pero que carecían del mismo encanto.
+                    <br>
+                    Así pues, llevábamos más de una década sin un Mario Bros. de estilo clásico que verdaderamente nos hiciera sentir magia, que nos recordara por qué el fontanero es el rey de las plataformas. Por suerte, terminó la espera por estas sensaciones y Super Mario Wonder llega como uno de los mejores juegos del año y como una de las entregas más mágicas de toda la franquicia."
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+    
+        <br>
+        
+        <h3>Imágenes y capturas del juego</h3>
+        
+        <div class="imagenes-y-capturas">
+            <img id="myImage" src="super-mario-wonder/super-mario-wonder-1.jpg" onclick="openModal(this.src)">
+         
+            <img id="myImage" src="super-mario-wonder/super-mario-wonder-2.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="super-mario-wonder/super-mario-wonder-3.jpg" onclick="openModal(this.src)">
+        
+            <img id="myImage" src="super-mario-wonder/super-mario-wonder-4.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="super-mario-wonder/super-mario-wonder-5.jpg" onclick="openModal(this.src)">
+
+            <img id="myImage" src="super-mario-wonder/super-mario-wonder-6.jpg" onclick="openModal(this.src)">
+        </div>
+
+        <!-- El modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(src) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('modalImage').src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
+        <h3>Gameplay del juego</h3>
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AvzeZFG-Cm0?si=wIcahSEl9sD0Ezxt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    </main>
+
+    <footer class="footer container">
+
+        <div class="link">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="../index.php">Cerrar sesión</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>

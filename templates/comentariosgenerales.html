@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios Generales</title>
+    <link rel="stylesheet" href="comentariosgenerales.css"> <!-- Asegúrate de crear este archivo CSS -->
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="Inicio.html" class="logo">BLOGGAMER</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="./Noticias.html">Noticias</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="../index.php">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <main>
+        <!-- Formulario para agregar comentarios -->
+        <section>
+            <h2>Deja tu comentario</h2>
+            <form action="{{ url_for('comentarios_generales') }}" method="POST">
+                <label for="usuario">Nombre:</label>
+                <input type="text" id="username" name="usuario" required>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <button type="submit">Enviar comentario</button>
+            </form>
+        </section>
+
+        <!-- Lista de comentarios -->
+        <section>
+            <h2>Comentarios</h2>
+            <div class="comments-list">
+                {% for usuario, comentario, fecha in comentarios %}
+                <div class="comment">
+                    <h3>{{ usuario }}</h3>
+                    <p>{{ comentario }}</p>
+                    <span class="timestamp">{{Fecha}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
